@@ -12,6 +12,7 @@ body
     margin:0px;
     font-family: pirate1;
     background-size:cover;
+    background-position: left;
     height:auto;
     width: auto;
     font-size: 1.2em;
@@ -21,9 +22,11 @@ body
 {
     
     background-color:#212524;
+    width:300px;
     /**Debido a que me conviene en este caso PARTICULAR fijar el ancho en píxeles porque protege el ancho d elineas del poema y no rompe los versos porque SON VERSOS. Y pq 300px caben en el ancho de cualquier dispositivo móvil.*/
-    
     text-align: center;
     color:white;
+    margin-left: 55%;
+    padding:auto;
 
 }
