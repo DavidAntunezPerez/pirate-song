@@ -1,0 +1,29 @@
+@font-face {
+    font-family: pirate1;
+    src: url(../fonts/Merienda-Bold.ttf);
+}
+body
+{
+    background-color:#212524;
+}
+#container
+{
+    background-image: url(../images/background.jpg);
+    margin:0px;
+    font-family: pirate1;
+    background-size:cover;
+    height:auto;
+    width: auto;
+    font-size: 1.2em;
+    
+}
+#poem
+{
+    
+    background-color:#212524;
+    /**Debido a que me conviene en este caso PARTICULAR fijar el ancho en píxeles porque protege el ancho d elineas del poema y no rompe los versos porque SON VERSOS. Y pq 300px caben en el ancho de cualquier dispositivo móvil.*/
+    
+    text-align: center;
+    color:white;
+
+}
